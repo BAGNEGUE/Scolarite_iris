@@ -1,0 +1,21 @@
+
+
+
+Orange 
+	client (idclient, nom, prenom, adresse, email, tel)
+	objet (idobjet, marque, prix, dateAchat, idclient#)
+	technicien (idtechnicien, nom, prenom, competence, email, tel)
+	intervention (idintervention, description, dateInter, prixInter, idobjet#, idtechnicien)
+
+Air France 
+	Contructeur (idconstructeur, libelle, pays, statut)
+	Avion (idavion, designation, dateAchat, capacite, idconstructeur#)
+	Pilote (idpilote, nom, prenom, adresse, email, bip, nbHeuresVols)
+	Vol (idvol, libelle, dateVol, heureVol, idavion#, idpilote1#, idpilote#)
+
+
+Pour vendredi : 
+	- Deuxième présentation du site e-enseignement 
+	- Présentation du site scolarité // orange // air France avec CSS //boostrap 
+	- Document GLPI (10 pages)
+
